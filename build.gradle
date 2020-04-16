@@ -26,6 +26,9 @@ minecraft {
     runDir = "eclipse"
 }
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 jar {
 	manifest {
 		attributes 'FMLCorePlugin': 'com.sonicether.soundphysics.CoreModLoader'
